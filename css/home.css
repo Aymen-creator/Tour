@@ -3,14 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: url(img/flw.jpg) no-repeat;
+.section1 {
+    background: url(img/sini1.jpg) no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
-}
+    min-height: auto;
+    padding: 40px;
+} 
 .header {
-    margin-top: 10px;
+    margin-top: 2px;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -20,19 +21,19 @@ body{
     padding: 15px 15px;
     align-items: center;
     z-index: 100;
-    background: white;
-    border-radius: 35px;
+    background: transparent;
 }
 .logo {
     font-size: 35px;
-    color: black;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
+    margin-left: 20px;
 }
 .navbar a{
-    font-size: 17px;
-    color: black;
-    margin-left: 30px;
+    font-size: 18px;
+    color: white;
+    margin-left: 25px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
@@ -45,11 +46,39 @@ body{
     border-radius: 15px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px;
     background: transparent;
-    color: gray;
+    color: white;
     padding: 5px;
 }
-.log a:hover{
+.hero {
+    padding-left: 30px;
+    padding-top: 40vh;
     color: white;
+    font-size: x-large;
+}
+.hero2 {
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+.hero2 button{
+    text-decoration: none;
+    background: rgb(58, 68, 93);
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px;
+}
+.hero2 button a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.hero2 button :hover {
+    color: rgb(90, 112, 111);
 }
