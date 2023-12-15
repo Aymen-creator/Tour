@@ -82,11 +82,111 @@
 .hero2 button :hover {
     color: rgb(90, 112, 111);
 }
+/* section 1 ending */
+
+/* section 2 begining*/
 .section2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card {
+    width: 80px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 20px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 10px 0px 30px 0px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+    color: white;
+    display: flex;
+}
+
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    color: #b0b0ba;
+    padding-top: 5px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    width: 600px;
+}
+
+input:checked + label .description {
+    opacity: 3 !important;
+    transform: translateY(-5px) !important;
+}
+
+.card[for="c1"] {
+    background-image: url('img/fasil2.jpg');
+}
+.card[for="c2"] {
+    background-image: url('img/tis\ abay.jpg');
+}
+.card[for="c3"] {
+    background-image: url('img/nejashi2.jpg');
+}
+.card[for="c4"] {
+    background-image: url('img/semen.jpg');
+}
+/* section 2 ending */
+
+/* section 3 begining*/
+.section3 {
     padding-top: 40px;
     background: rgb(146, 135, 121);
 }
-.section2 h1 {
+.section3 h1 {
     text-align: center;
     color: white;
 }
