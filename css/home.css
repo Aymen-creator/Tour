@@ -189,13 +189,13 @@ input:checked + label .description {
     background-image: url('img/fasil2.jpg');
 }
 .card[for="c2"] {
-    background-image: url('img/tis\ abay.jpg');
+    background-image: url('img/lali2.jpg');
 }
 .card[for="c3"] {
-    background-image: url('img/nejashi2.jpg');
+    background-image: url('img/nejashi1.jpg');
 }
 .card[for="c4"] {
-    background-image: url('img/semen.jpg');
+    background-image: url('img/harrar1.jpg');
 }
 /* section 2 ending */
 
