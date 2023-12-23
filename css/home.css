@@ -241,6 +241,64 @@ input:checked + label .description {
 }
 /*section 3 ending*/
 /*section 4 begining*/
+.section4{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section4 .main{
+    padding: 60px;
+    background: #524948;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section4 img{
+    width: 550px;
+    height: auto;
+}
+.text4{
+    color: white;
+    width: 520px;
+}
+.text4 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.text4 p{
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.main1{
+    padding: 60px;
+    background: #524948;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section42 img{
+    width: 500px;
+    height: auto;
+}
+.main1 .text4{
+    color: white;
+    width: 520px;
+}
+.main1 .text4 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.main1 .text4 p{
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+/*footer*/
 footer {
     margin: 0;
     padding: 10px;
