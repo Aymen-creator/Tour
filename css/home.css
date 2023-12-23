@@ -241,12 +241,37 @@ input:checked + label .description {
 }
 /*section 3 ending*/
 /*section 4 begining*/
-.section4 {
+footer {
     margin: 0;
-    padding: 0;
-    min-height: 35vh;
+    padding: 10px;
+    min-height: 10vh;
     background: rgb(42, 45, 52);
     box-sizing: border-box;
+}
+.foot-icons{
+    display: flex;
+    justify-content: center;
+}
+.foot-icons a{
+    background: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+.foot-icons a i {
+    font-size: 25px;
+    color: black;
+    opacity: 0.8;
+}
+.foot-icons a:hover{
+    background: rgb(42, 45, 52);
+    transition: .5s;
+}
+.foot-icons a i:hover {
+    color: white;
+    opacity: 1;
+    transition: .4s;
 }
 @media  screen and (max-width: 1147px) {
     .column {
