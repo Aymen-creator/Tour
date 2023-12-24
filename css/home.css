@@ -556,6 +556,9 @@ img{
     img {
         margin-left: 40px;
     }
+    .foot-icons a i {
+        font-size: 18px;
+    }
 }
 @media screen and (max-width: 414px){
     img {
