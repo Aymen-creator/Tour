@@ -39,6 +39,10 @@
     z-index: -1;
     
 }
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+}
 .logo {
     font-size: 35px;
     color: lightgray;
