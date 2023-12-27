@@ -333,6 +333,7 @@ input:checked + label .description {
     background: url(img/beya2.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     height: 50vh;
     color: white;
     justify-content: center;
