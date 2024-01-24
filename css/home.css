@@ -585,7 +585,7 @@ img{
             font-size: 8px;
         }
 }
-@media screen and (max-width: 451px){
+@media screen and (max-width: 452px){
     img {
         margin-left: 40px;
     }
